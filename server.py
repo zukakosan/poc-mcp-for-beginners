@@ -16,3 +16,7 @@ def cancat_str(str1: str, str2: str) -> str:
 def get_greeting(name: str) -> str:
     """Get a greeting message."""
     return f"Hello, {name}!"
+
+# server.py を直接実行したときに起動する
+if __name__ == "__main__":
+    mcp.run()

@@ -1,0 +1,11 @@
+{
+    "inputs": [],
+    "servers": {
+       "python-mcp": {
+           "command": "./mcp-py/Scripts/python.exe",
+           "args": [
+               "./server.py"
+           ]
+       }
+    }
+}
